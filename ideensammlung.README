@@ -1,0 +1,6 @@
+interessanter Befehl deren Daten sich zu einer schönen Ausgabe verarbeiten 
+lässt um darzustellen welche IP-Adressen im Netzwerk online sind:
+
+    nmap -v -sn 19.168.178.0/24
+
+
