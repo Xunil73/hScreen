@@ -34,106 +34,19 @@
    <set>QMainWindow::DockOption::AllowTabbedDocks|QMainWindow::DockOption::AnimatedDocks</set>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QWidget" name="layoutWidget">
+   <widget class="QTextBrowser" name="textBrowser">
     <property name="geometry">
      <rect>
-      <x>20</x>
-      <y>90</y>
-      <width>166</width>
-      <height>134</height>
+      <x>60</x>
+      <y>30</y>
+      <width>541</width>
+      <height>411</height>
      </rect>
     </property>
-    <layout class="QVBoxLayout" name="verticalLayout">
-     <item>
-      <widget class="QLabel" name="label_6">
-       <property name="autoFillBackground">
-        <bool>false</bool>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">background-color: transparent;
-color: lightgreen;</string>
-       </property>
-       <property name="text">
-        <string>Das ist ein Textlabel</string>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QLabel" name="label_5">
-       <property name="autoFillBackground">
-        <bool>false</bool>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">background-color: transparent;
-color: lightblue;</string>
-       </property>
-       <property name="text">
-        <string>Das ist ein Textlabel</string>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QLabel" name="label_4">
-       <property name="autoFillBackground">
-        <bool>false</bool>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">background-color: transparent;
-color: yellow;</string>
-       </property>
-       <property name="text">
-        <string>Das ist ein Textlabel</string>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QLabel" name="label_3">
-       <property name="autoFillBackground">
-        <bool>false</bool>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">opacity: 0.5;
-background-color: transparent;
-color: red;</string>
-       </property>
-       <property name="text">
-        <string>Das ist ein Textlabel</string>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QLabel" name="label">
-       <property name="autoFillBackground">
-        <bool>false</bool>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">opacity: 50;
-background-color: transparent;
-color: darkgrey;</string>
-       </property>
-       <property name="text">
-        <string>Das ist ein Textlabel</string>
-       </property>
-       <property name="scaledContents">
-        <bool>false</bool>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QLabel" name="label_2">
-       <property name="autoFillBackground">
-        <bool>false</bool>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">background-color: transparent;
-color: lightgreen;</string>
-       </property>
-       <property name="text">
-        <string>Das ist ein Textlabel</string>
-       </property>
-      </widget>
-     </item>
-    </layout>
+    <property name="styleSheet">
+     <string notr="true">background-color: yellow;
+text-color: red;</string>
+    </property>
    </widget>
   </widget>
  </widget>
