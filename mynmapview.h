@@ -9,7 +9,7 @@
 class MyNmapView : public QThread {
     Q_OBJECT
 public:
-    MyNmapView(QObject *parent=nullptr);
+    MyNmapView(QObject *parent);
     void run() override;
 signals:
     void nmapReady(const QString&);

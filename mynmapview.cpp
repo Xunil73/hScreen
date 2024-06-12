@@ -1,6 +1,6 @@
 #include "mynmapview.h"
 
-MyNmapView::MyNmapView(QObject *parent) {
+MyNmapView::MyNmapView(QObject* parent) : QThread(parent) {
 }
 
 void MyNmapView::run() {
