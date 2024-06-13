@@ -3,7 +3,7 @@
 
 #include <QMainWindow>
 #include <QString>
-#include "mynmapview.h"
+#include "nmapThread.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui {

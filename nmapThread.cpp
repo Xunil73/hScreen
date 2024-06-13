@@ -1,9 +1,9 @@
-#include "mynmapview.h"
+#include "nmapThread.h"
 
-MyNmapView::MyNmapView(QObject* parent) : QThread(parent) {
+NmapThread::NmapThread(QObject* parent) : QThread(parent) {
 }
 
-void MyNmapView::run() {
+void NmapThread::run() {
     QProcess process;
     QString program = "nmap";
     QStringList arguments;

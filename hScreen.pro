@@ -11,11 +11,11 @@ CONFIG += c++17
 SOURCES += \
     main.cpp \
     mainwindow.cpp \
-    mynmapview.cpp
+    nmapThread.cpp
 
 HEADERS += \
     mainwindow.h \
-    mynmapview.h
+    nmapThread.h
 
 FORMS += \
     mainwindow.ui

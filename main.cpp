@@ -1,7 +1,7 @@
 #include "mainwindow.h"
 
 #include <QApplication>
-#include "mynmapview.h"
+#include "nmapThread.h"
 
 int main(int argc, char *argv[])
 {

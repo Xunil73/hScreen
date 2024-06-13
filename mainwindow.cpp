@@ -7,10 +7,10 @@ MainWindow::MainWindow(QWidget *parent)
 {
     setWindowFlags(Qt::FramelessWindowHint); // einzige Möglichkeit um die Statusbar des Programms zu entfernen
     ui->setupUi(this);
-    MyNmapView *mynmapview = new MyNmapView(this);
-    connect(mynmapview, &MyNmapView::nmapReady, this, &MainWindow::displayNmap);
-    connect(mynmapview, &MyNmapView::finished, mynmapview, &QObject::deleteLater);
-    mynmapview->start();
+    NmapThread *nmapThread = new NmapThread(this);
+    connect(nmapThread, &NmapThread::nmapReady, this, &MainWindow::displayNmap);
+    connect(nmapThread, &NmapThread::finished, nmapThread, &QObject::deleteLater);
+    nmapThread->start();
 }
 
 MainWindow::~MainWindow()
